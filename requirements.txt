@@ -1,0 +1,10 @@
+gradio>=4.29.0
+pandas>=2.2.2
+numpy>=1.26.4
+matplotlib>=3.8.4
+scikit-learn>=1.5.0
+
+# Optional: Tambahan dev & deployment
+fastapi>=0.111.0         # Kalau mau nanti expose ke API
+uvicorn>=0.30.0          # Buat run FastAPI
+python-dotenv>=1.0.1     # Kalau pakai env file
